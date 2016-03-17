@@ -37,7 +37,7 @@ for quizNum in range (5):
     answerKeyFile = open('./answers/capitalsquiz_answers%s.txt' % (quizNum + 1), 'w')
     quizFile.write('Name:\n\nDate:\n\nPeriod:\n\n')
     quizFile.write((' ' * 20) + 'State Capitals Quiz (Form %s)' % (quizNum + 1)
-    quizFile write('\n\n')
+    quizFile.write('\n\n')
 
     states = list(capitals.keys())
     random.shuffle(states)
